@@ -1,0 +1,273 @@
+body {
+    background-color: black;
+    height: 2200px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.robo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#robot {
+    text-align: right;
+    width:500px ;
+    height:600px ;
+    margin-top: 20px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+h1 {
+    color: #D32F2F;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family:serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+nav {
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 1.5cm;
+background-color:black;
+display: flex;
+justify-content: space-between;
+z-index: 555;
+}
+
+
+nav ul {
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a{ 
+    margin-right: 10px;
+    color: #D32F2F;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:orangered ;
+    text-decoration: underline;
+}
+#name {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 200px;
+}
+#web{
+    color: #D32F2F;
+    text-align: left;
+    margin-left: 160px;
+    margin-top: -50px;
+    font-size: 30PX;
+    font-weight: 800;
+    width: 0;
+    text-wrap: nowrap;
+    overflow: hidden;
+    border-right: 2PX solid #D32F2F;
+    animation: typing-deleting 9s steps(20) infinite ;
+    -webkit-animation: typing-deleting 9s steps(20) infinite ;
+}
+@keyframes typing-deleting {
+0% {
+    width: 0 ;
+}
+40% {
+    width: 350px ;
+}
+60% {
+    width: 350px ;
+}
+100% {
+    width: 0 ;
+}
+}
+
+p {
+    text-align: left;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: -30px;
+    width: 360px;
+    margin-left: 160px;
+}
+.ul-icons {
+    text-align: left;
+    margin-left: 150px;
+    font-size: 30px;
+display: flex;
+gap: 20PX;
+}
+.ul-icons li a{
+    color: orangered;
+}
+
+.ul-icons li a:hover{
+    text-decoration: none;
+    color: coral;
+    text-shadow: 0 0 25px rgb(40, 221, 249);
+}
+h2 {
+    color: #D32F2F;
+    padding-top: 130px;
+    text-align: left;
+    margin-left: 160px;
+    margin-top:   150px;
+    font-size: 50px;
+}
+.P2 {
+    font-size: 20px;
+    width: 500px;
+    margin-top: -40px;
+}
+.pas {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pass {
+    text-align: right;
+    position: absolute;
+    right: 0%;
+    top: 750px;
+    width: 500px;
+    height: 500px;
+}
+h3 {
+    color: #D32F2F;
+    font-size: 50px;
+    text-align: center;
+    margin-top:  110PX;
+    padding-top: 90px;
+    z-index: 2000;
+
+}
+.card {
+    position: relative;
+    width: 190px;
+    height: 254px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: translateY(-20px);
+  }
+  
+  .card::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    border-radius: 1.2em;
+  }
+  
+  .card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    filter: blur(30px);
+  }
+  
+  .card span {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    border-radius: 1em;
+  }
+  
+  .card span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .card .content {
+    position: relative;
+    padding: 10px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.5em;
+  }
+  .cards-container {
+    display: flex;
+    gap: 60px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 20px;
+  }
+
+.certificate img {
+width: 80%;
+height: auto;
+}
+h4 {
+    color: #D32F2F;
+    padding-top: 20px;
+    margin-top: 45px;
+    font-size: 50px;
+    text-align: center;
+}
+h5 {
+    color: #de2020;
+    margin-top: -20px;
+    font-size: 30px;
+    text-align: left;
+margin-left: 120px;
+}
+.contact-icon {
+    margin: 5px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-icon li a{
+    color: orangered;
+}
+
+.contact-icon li a:hover{
+    text-decoration: none;
+    color: #50e2ff;
+    text-shadow: 0 0 25px rgb(40, 221, 249);
+}
