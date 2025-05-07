@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    height: 2200px;
 }
 html {
     scroll-behavior: smooth;
@@ -20,6 +19,9 @@ html {
     position: absolute;
     top: 5%;
     right: 5%;
+}
+.zaid {
+    color: white;
 }
 h1 {
     color: #D32F2F;
@@ -54,16 +56,18 @@ nav ul li {
 }
 nav ul li a{ 
     margin-right: 10px;
-    color: #D32F2F;
+    color:whitesmoke;
     font-size: 20px;
     cursor: pointer;
     text-decoration: none;
 }
-
-nav ul li a:hover {
-    color:orangered ;
+nav ul li a:hover , .active{
+    color: #ff0058;
     text-decoration: underline;
 }
+nav ul li a:active{
+color: #ff0058;
+} 
 #name {
     color: aliceblue;
     font-size: 50px;
@@ -236,11 +240,6 @@ h3 {
     flex-wrap: wrap; 
     padding: 20px;
   }
-
-.certificate img {
-width: 80%;
-height: auto;
-}
 h4 {
     color: #D32F2F;
     padding-top: 20px;
@@ -249,18 +248,24 @@ h4 {
     text-align: center;
 }
 h5 {
-    color: #de2020;
+   Color: white;
     margin-top: -20px;
-    font-size: 30px;
+    font-size: 30px ;
     text-align: left;
-margin-left: 120px;
+margin-left: 30px;
+}
+.container {
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
 }
 .contact-icon {
-    margin: 5px;
-    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 75px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25PX;
 }
 .contact-icon li a{
     color: orangered;
@@ -270,4 +275,41 @@ margin-left: 120px;
     text-decoration: none;
     color: #50e2ff;
     text-shadow: 0 0 25px rgb(40, 221, 249);
+}
+.lien {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 10px;
+    gap: 25PX;
+    font-size: 20PX;
+}
+.lien a {
+    color: #ff0058;
+    text-decoration: none;
+}
+.lien a:hover {
+    color: #50e2ff;
+    text-decoration:underline;
+}
+.info {
+    display: flex;
+    gap:-20%;
+}
+h6 {
+    margin-top: 12px;
+    Color: white;
+    font-size: 33px ;
+    text-align: right;
+    margin-right: -700PX;
+}
+.contact-form {
+    color: #D32F2F;
+    display: flex;
+    flex-direction: column;
+    height: 300px; 
+    width: 300px;
+    margin-right: 147px;
+    margin-top: 80px;
 }
