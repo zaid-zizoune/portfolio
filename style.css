@@ -25,7 +25,7 @@ html {
     color: white;
 }
 h1 {
-    color: #D32F2F;
+    color: #ff0058;
     display: flex;
     font-size: 40px;
     text-align: left;
@@ -62,7 +62,6 @@ nav ul li a{
 }
 nav ul li a:hover , .active{
     color: #ff0058;
-    text-decoration: underline;
 }
 nav ul li a:active{
 color: #ff0058;
@@ -108,16 +107,16 @@ color: #ff0058;
 
 #p1 {
     text-align: left;
-    color: aliceblue;
-    font-size: 15px;
-    font-family: 'inter',sans-serif;
     margin-top: -25px;
-    width: 360px;
+    color: #fff;
+    font-family: 'inter',sans-serif;
+    font-size: 20px;
+    width: 500px;
     margin-left: 160px;
 }
 .ul-icons {
     text-align: left;
-    margin-left: 150px;
+    margin-left: 115px;
     font-size: 30px;
 display: flex;
 gap: 20PX;
@@ -199,29 +198,38 @@ gap: 20PX;
 
 }
 h2 {
-    color: #D32F2F;
-    padding-top: 130px;
+    color: white;
     text-align: left;
     margin-left: 160px;
-    margin-top:   150px;
-    font-family: "Rajdhani", sans-serif;
+    margin-top:   250px;
+    font-family: "Lilita One", sans-serif;
     font-weight: 800;
     font-size: 50px;
 }
+#eml{
+    color: #D32F2F ;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive; 
+    margin-top: -60px;
+    padding: 10px 0;
+    margin-left: 160px;
+}
 #p2 {
-    margin-top: -10px;
+    padding: 10px 0;
     color: #fff;
     font-family: 'inter',sans-serif;
     font-size: 20px;
     width: 500px;
+    margin-top: 30px;
     margin-left: 160px;
+
 }
 .pas {
     flex: 1;
     display: flex;
     justify-content: right;
     align-items: right;
-    margin-top: -31%;
+    margin-top: -36%;
     margin-right: 10%;
     height: 450px;
 }
@@ -246,11 +254,11 @@ h2 {
     }
 }
 h3 {
-    color: #D32F2F;
+    color:white;
     text-align: left;
     margin-left: 160px;
     margin-top:   170px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: "Lilita One", sans-serif;
     font-weight: 800;
     font-size: 50px;
 }
@@ -341,11 +349,11 @@ h3 {
     }
   }
 h4 {
-    color: #D32F2F;
+    color: white;
     padding-top: 130px;
     text-align: center;
     margin-top:   150px;
-    font-family: "Rajdhani", sans-serif;
+    font-family:"Lilita One", sans-serif;
     font-weight: 800;
     font-size: 50px;
 }
@@ -415,9 +423,11 @@ h4 {
 }
 h5 {
     margin-top: 0%;
-    font-size: 19vw;
+    font-weight: 400;
+  font-style: normal;
+  font-size: 250px;
     color: #ff0058;
-    font-family: "Permanent Marker", cursive;
+    font-family:"Rubik Beastly", system-ui;
     text-align: center;
 }
 .contact-icon {
